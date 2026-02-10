@@ -1,0 +1,7 @@
+soma = 0
+cont = 0
+for i in range(1, 81):
+    if i % 4 == 0 and i >20:
+        soma += i
+        cont +=1
+print(f'A quantidade é {cont} enquanto a soma é {soma}')
