@@ -1,0 +1,10 @@
+i = 0
+soma = 0
+cont = 0
+while i <= 60:
+    i +=1
+    if i % 2 == 0 and i <= 30:
+        cont += 1
+        soma += i
+print(cont)
+print(soma)
