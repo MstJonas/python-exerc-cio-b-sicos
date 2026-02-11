@@ -1,0 +1,9 @@
+soma = 0
+cont = 0
+for i in range(1,101):
+    if i % 4 == 0:
+        cont += 1
+    if i % 4 != 0 and i > 30:
+        soma += i
+print(cont)
+print(soma)
