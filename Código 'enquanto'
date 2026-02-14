@@ -1,0 +1,11 @@
+cont = 0
+soma = 0
+conta = 0
+for k in range(1, 101):
+    if k < 30:
+        cont += 1
+    elif 30 <= k <= 70:
+        soma +=k
+    else:
+        conta += 1
+print(f'Se for menor que 30 {cont}\nSe for entre 30 e 70 {soma}\nSe for maior que 70 {conta}')
