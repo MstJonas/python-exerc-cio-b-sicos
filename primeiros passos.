@@ -1,0 +1,6 @@
+respota = ''
+while respota!= 'ok':
+    respota = input('Digite ok para sair do programa: ')
+    if respota == 'ok':
+        print('Saindo do programa...')
+print('Programa finalizado com sucesso!')
